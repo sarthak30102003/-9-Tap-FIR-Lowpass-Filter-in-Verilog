@@ -21,12 +21,17 @@ A pipelined and fully synthesizable **9-tap FIR Lowpass Filter** implemented in 
 ```
 fir-lowpass-filter/
 ├── src/
-│   └── fir.v
+|   ├── fir.v
+│   ├── fir.sv
+│   └── cordic_0/
+|       └── cordic_0.xci
 ├── sim/
 │   ├── fir_tb.v
-│   ├── fir_filter_waveform.png
-│   ├── fir_filter_schematic.png
-|   ├── cordic_ip/  
+│   ├── fir_tb_behav.wvfg
+│   ├── waveform1.png
+│   ├── waveform2.png
+│   ├── schematic.png
+│   ├── synthesis_schematic.pdf
 │   └── detailed_schematic.pdf      
 └── README.md
 ```
