@@ -41,7 +41,9 @@ fir-lowpass-filter/
 
 ## 📷 Waveform Snapshot
 
-![Simulation Waveform]() <!-- Replace with actual path if uploading -->
+![Simulation Waveform1](fir-lowpass-filter/sim/waveform1.png)
+![Simulation Waveform2](fir-lowpass-filter/sim/waveform2.png) 
+
 
 ---
 
@@ -58,7 +60,7 @@ fir-lowpass-filter/
 - The **filtered_signal** removes the 30 MHz noise while preserving the 2 MHz sine wave.
 
 ### Filter Architecture
-- **Symmetric 9-Tap FIR FIlter**
+- **Symmetric 9-Tap FIR Filter**
 - Multiply-accumulate operation pipelined across four stages
 - Uses pre-defined 16-bit fixed-point coefficients
 
@@ -99,7 +101,7 @@ reg signed [15:0] coeff [0:8] = { 16'h04F6,
 **Sarthak Aggarwal**  
 📘 B.Tech ECE, Delhi Technological University  
 🔗 [LinkedIn](https://www.linkedin.com/in/sarthak-aggarwal-486b60240/)  
-📧 [sarthakaggarwal30102003@gmail.com]
+📧 [sarthakaggarwal30102003@gmail.com](mailto:sarthakaggarwal30102003@gmail.com)
 
 ---
 
