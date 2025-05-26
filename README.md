@@ -68,7 +68,7 @@ fir-lowpass-filter/
 
 ## 🧠 FIR Coefficients (Windowed Sinc)
  ```
-reg signed [15:0] coeff [0:8] = { 16'h04F6,
+reg signed [15:0] coeff [0:8] = {16'h04F6,
                                   16'h0AE4,
                                   16'h1089,
                                   16'h1496,
