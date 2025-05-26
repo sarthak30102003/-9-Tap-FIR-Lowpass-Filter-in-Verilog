@@ -88,7 +88,7 @@ reg signed [15:0] coeff [0:8] = {16'h04F6,
 
 ---
 
-🧰 Concepts Covered
+## 🧰 Concepts Covered
 - FIR filter design and pipelined implementation
 - CORDIC-based sine wave generation in Verilog
 - Clock-domain management and signal resampling
